@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" x-data="{ darkMode: localStorage.getItem('dark') === 'true'}" x-init="$watch('darkMode', val => localStorage.setItem('dark', val))" :class="{ 'dark': darkMode }">
 <head>
-    <meta charSet="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="description" content="Christian Fredegaard | Software Developer, personal website">
-    <meta property="og:description" content="Christian Fredegaard | Software Developer, personal website">
-    <meta name="twitter:description" content="Christian Fredegaard | Software Developer, personal website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@fredegaard">
-    <meta name="twitter:image" content="https://fredegaard.com/cover-dark.png">
-    <meta name="twitter:creator" content="@fredegaard">
-    <meta property="og:url" content="https://fredegaard.com/">
-    <meta property="og:type" content="article">
-    <meta property="og:image" content="https://fredegaard.com/cover-dark.png">
-    <meta name="twitter:title" content="Christian Fredegaard | Software Developer, personal website">
-    <meta property="og:title" content="Christian Fredegaard | Software Developer, personal website">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Software Developer | Christian Fredegaard</title>
+
+    <meta name="description" content="Christian Fredegaard | Software Developer, personal website" />
+    <meta property="og:title" content="Christian Fredegaard | Software Developer, personal website" />
+    <meta property="og:url" content="https://fredegaard.com/" />
+    <meta property="og:image" content="https://fredegaard.com/cover-dark.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Christian Fredegaard | Software Developer, personal website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Christian Fredegaard | Software Developer, personal website" />
+    <meta name="twitter:description" content="Christian Fredegaard | Software Developer, personal website" />
+    <meta name="twitter:image" content="https://fredegaard.com/cover-dark.png" />
+    <meta name="twitter:url" content="https://fredegaard.com/" />
+    <meta name="twitter:site" content="@fredegaard" />
+    <meta name="twitter:creator" content="@fredegaard" />
 
     <link rel="icon" href="/favicon.ico" sizes="32x32">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <title>Software Developer | Christian Fredegaard</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link href="app.min.css" rel="stylesheet">
     <script src="https://cdn.usefathom.com/script.js" data-site="OHYXRYPO" defer></script>
