@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i tailwind.css -o app.min.css --watch",
+    "build": "npx @tailwindcss/cli -i tailwind.css -o app.min.css --minify"
+  },
   "devDependencies": {
-    "tailwindcss": "^3.4.19"
+    "tailwindcss": "^4.1.18"
   }
 }
