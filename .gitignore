@@ -1,6 +1,8 @@
 # phpstorm
-.idea/
+/.idea
 .env
+.env.backup
+.env.production
 
 # temp files from editors
 *~
@@ -11,7 +13,6 @@
 .settings
 *.tmproj
 build
-.idea
 nbproject/
 
 # hidden files created by Windows
@@ -28,3 +29,5 @@ Dockerfile
 *.log
 *.sqlite
 *.sublime*
+auth.json
+npm-debug.log
